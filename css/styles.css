@@ -1,0 +1,36 @@
+img {
+  max-height: 300px;
+}
+
+.icons {
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background: white;
+  border: none;
+  padding: 10px 6px;
+  margin: 0.5rem;
+}
+
+.icon-small {
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background: white;
+  border: none;
+  padding: 0px 5px 0px 5px;
+  margin: 0.5rem;
+  height: 35px;
+  width: 35px;
+}
+
+.icons:hover,
+.icon-small:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s ease-out;
+}
+
+.card-text {
+  font-size: 12px;
+  color: rgb(163, 160, 160);
+  line-height: 12px;
+}
