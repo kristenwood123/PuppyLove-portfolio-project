@@ -69,10 +69,9 @@ img {
   padding-top: 30px;
 }
 
-/* .cards * {
-  box-sizing: border-box;
-} */
-
+.card__wrapper {
+  padding: 1rem;
+}
 footer {
   background: #000;
 }
