@@ -12,6 +12,10 @@ img {
   max-height: 300px;
 }
 
+.navbar {
+  background-color: #ab3aa5;
+}
+
 .card-body {
   padding-top: 0.5rem;
 }
@@ -111,4 +115,23 @@ footer h5 {
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(265px, 350px));
   }
+}
+
+.bgimage {
+  width: 100%;
+  height: 100vh;
+  /* background: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background: #ab3aa5;
+}
+.bgimage h5 {
+  color: white;
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: left;
+  margin-top: 2rem;
 }
